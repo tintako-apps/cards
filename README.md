@@ -2,7 +2,7 @@
 
 # Wallet
 
-An offline wallet for static barcodes on the Mudita Kompakt: loyalty, library, gym and club cards. Your cards sit in one stack showing only their names. Tap one to bring its code to the front.
+An offline wallet for static barcodes on E Ink devices: loyalty, library, gym and club cards. Your cards sit in one stack showing only their names. Tap one to bring its code to the front.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J4V82A4UVG)
 
@@ -32,4 +32,4 @@ An offline wallet for static barcodes on the Mudita Kompakt: loyalty, library, g
 - Not every shop scanner reads codes from a screen
 
 ## Install
-Download the latest APK from [Releases](../../releases/latest) and install it on your Kompakt with Mudita Center.
+Download the latest APK from [Releases](../../releases/latest) and install it on your E Ink device.
