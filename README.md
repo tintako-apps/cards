@@ -1,10 +1,10 @@
-<img src="icon.svg" width="128" alt="Wallet icon">
+<img src="icon.svg" width="128" alt="Cards icon">
 
-# Wallet
+# Cards
 
-An offline wallet for static barcodes on E Ink devices: loyalty, library, gym and club cards. Your cards sit in one stack showing only their names. Tap one to bring its code to the front.
+An offline wallet for static barcodes, made for E Ink: loyalty, library, gym and club cards. Your cards sit in one stack showing only their names; tap one to bring its code to the front. Until version 1.0.6 the app was called Wallet.
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J4V82A4UVG)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/tintako)
 
 ## What it can do
 
@@ -18,18 +18,27 @@ An offline wallet for static barcodes on E Ink devices: loyalty, library, gym an
 
 **Read only:** GS1 DataBar, GS1 DataBar Expanded, MaxiCode. These are saved as a value, or as the original image crop when imported from an image.
 
-**Languages:** Croatian, English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Czech
+**Languages:** Croatian, English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Czech. The app name follows the phone's language (Kartice, Cards, Karten, Cartes, Tarjetas, Carte, Cartões, Kaarten, Karty).
+
+## Permissions
+
+- **Camera:** to read a card's code, asked the first time you scan. Camera images are used only to read the code and are never saved.
 
 ## Privacy
+
 - Fully offline: the app has no internet permission
 - Every card is encrypted on the phone with AES-256-GCM
 - No account, no analytics, no ads
 - Screenshot protection is on by default
-- Camera images are used only for reading the code and are not saved
+- Details: [PRIVACY.md](PRIVACY.md) · [TERMS.md](TERMS.md) · [LICENSES.md](LICENSES.md)
 
 ## Good to know
-- Wallet shows static codes only. It doesn't support payment cards, NFC or rotating codes
+
+- Cards shows static codes only. It doesn't support payment cards, NFC or rotating codes
 - Not every shop scanner reads codes from a screen
 
 ## Install
-Download the latest APK from [Releases](../../releases/latest) and install it on your E Ink device.
+
+Download the latest APK from [Releases](../../releases/latest) and install it on your device. It installs over Wallet, and your cards stay.
+
+Made by Tintako · app@tintako.com
