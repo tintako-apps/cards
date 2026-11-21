@@ -1,6 +1,6 @@
 # Cards: Open source licenses
 
-Cards uses these open source parts. The full license texts are in the app (Settings → About → Open-source licenses).
+Cards uses these open source parts. The full license texts are in the app (Settings › Open source licenses).
 
 | Component | Version | License | Source |
 |---|---|---|---|

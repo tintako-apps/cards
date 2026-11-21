@@ -1,6 +1,6 @@
 # Cards: Terms of Use
 
-Last updated: 21 November 2026
+Last updated: 22 November 2026
 
 ## What these terms are
 
@@ -28,7 +28,7 @@ None. The app connects to no server. Names of shops and clubs are typed in by yo
 
 ## Changes
 
-If these terms change, the new version is published here and in the app (Settings → About → Terms of use).
+If these terms change, the new version is published here and in the app (Settings › Terms of use).
 
 ## Contact
 

@@ -1,10 +1,10 @@
 # Cards: Privacy Policy
 
-Last updated: 21 November 2026
+Last updated: 22 November 2026
 
 ## The short version
 
-Cards works fully offline. It has no internet permission, collects nothing and sends nothing anywhere. Your cards stay on your phone, encrypted.
+Cards has no account, no ads and no tracking. It works fully offline: it has no internet permission, collects nothing and sends nothing anywhere. Card numbers and codes stay on your phone, encrypted.
 
 ## Who is responsible
 
@@ -16,24 +16,23 @@ Only on your phone, in the app's private storage:
 
 - your cards: name, subtitle, category, notes, expiry date, code type and code content, each encrypted with AES-256-GCM using a key from the phone's Android Keystore that never leaves the phone
 - for a code that cannot be redrawn exactly (imported from an image), a small image of that code, encrypted the same way
-- which of your cards are favourites (up to 4), inside the same encrypted record
-- your settings (language, screenshot protection, whether the camera offer was already shown)
+- your settings (screenshot blocking, whether the camera offer was already shown)
 
 Nothing is backed up to the cloud or moved to a new phone. Removing the app deletes everything it stored.
 
 ## Permissions, and what each is for
 
-- **Camera:** to read a card's code. The app offers it once, the first time you scan (Turn on or Later), and you can turn it on later in Settings › General. It is used only on the scanner screen, and camera images are never saved. The scanner's flashlight turns on only when you tap it and off when you leave the scanner.
+- **Camera:** to read a card's code. The app offers it once, the first time you scan (Turn on or Later), and you can turn it on later in Settings › Permissions. It is used only while the scanner is open, and no picture is saved. The scanner's flashlight turns on only when you tap it and off when you leave the scanner.
 
 Images are picked through the phone's own file picker, so the app needs no access to your files; the image you pick is read once in memory and not copied. The APK also contains one internal Android permission (`DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`) that gives no access to anything on the phone.
 
 ## What leaves, and only when you ask
 
-Nothing leaves the phone. If you use Tintako Launcher, its Quick cards widget can read the names of your favourite cards (up to 4) so it can show them on your home screen, never a number or code. Only Tintako Launcher signed by Tintako can read them; no other app can. The app has no export, sharing or sync.
+Nothing leaves the phone. The app has no export, sharing or sync, and no other app can read your cards.
 
 ## Who else receives anything
 
-No one. The app connects to no server, has no account and no analytics. The Tip jar shows a QR code for ko-fi.com/tintako; the app itself never opens that address.
+No one. The app connects to no server, has no account and no analytics, and sends no notifications. The Tip jar shows a QR code for ko-fi.com/tintako; the app itself never opens that address.
 
 ## Legal basis (EU/EEA and UK)
 
@@ -49,4 +48,4 @@ The app is suitable for everyone and collects no data from anyone, including chi
 
 ## Changes
 
-If this policy changes, the new version is published here and in the app (Settings → About → Privacy).
+If this policy changes, the new version is published here and in the app (Settings › Privacy).
