@@ -1,6 +1,6 @@
 # Cards: Terms of Use
 
-Last updated: 17 November 2026
+Last updated: 21 November 2026
 
 ## What these terms are
 
